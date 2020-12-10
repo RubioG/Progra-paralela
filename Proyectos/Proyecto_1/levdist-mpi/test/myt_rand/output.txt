@@ -1,0 +1,6 @@
+19	arctic.txt	panic.txt
+19	chill.txt	panic.txt
+22	arctic.txt	chill.txt
+26	chill.txt	love.txt
+29	love.txt	panic.txt
+30	arctic.txt	love.txt

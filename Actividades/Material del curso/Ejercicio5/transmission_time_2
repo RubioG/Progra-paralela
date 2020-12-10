@@ -1,0 +1,5 @@
+No entendi muy bien el problema.
+
+Supongo que se deberia de aumentar la velocidad del proveedor ya que la velocidad anterior por cada sensor(40) es muy baja, ahora si se aumente 30 sensores mas al los servidores centrales no les va a llegar la informacion en un tiempo aceptable.
+
+El minimo de ancho de banda es de 28Mbps

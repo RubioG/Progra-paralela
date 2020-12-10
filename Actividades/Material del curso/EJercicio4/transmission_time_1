@@ -1,0 +1,12 @@
+s = 20
+7 200 000 megas iniciales, pero dividos en 28 computadoras, 257 142,857142857 megas por computadora, eso en bytes es 269 633 828 571.42844
+
+T = 0.02 + (269 633 828 571.42844 / 87040)
+T = 3 097 815.326050419 segundos
+
+51630.25543417365 minutos
+860.5042572362274 horas
+
+
+
+

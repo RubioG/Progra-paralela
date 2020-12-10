@@ -1,0 +1,29 @@
+El Fotografo (Proyecto)
+
+Un fotografo desea organizar las fotografias que ha tomado en los ultimos meses en su estadia en el extranjero, debido a que ha tomado demasiadas fotografias el fotografo ha contratado a un informatico para que le organice las fotografias y aplique efectos sobre las mismas, el informatico desea aprovechar al maximo los recursos que posee en su empresa y decide utilizar las tecnologias OpenMPI y OpenMP para lograr realizar el trabajo de la manera mas eficiente.
+
+Implemente una solucion serial del algoritmo de clustering "K-means" e implemente una clase que obtenga las distancias entre imagenes(matrices, usando bitmaps).
+
+Verifique que su solucion agrupe correctamente y no genere fugas de memoria.
+
+Implemente una solucion con OpenMPI del algoritmo de clustering "K-means" y haga que su clase que obtiene distancia entre imagenes sea paralela usando OpenMP.
+
+Verifique que su solucion obtenga los resultados correctos y no genere fugas de memoria
+
+Haga graficas con respecto a las duraciones y cantidad de imagenes agrupadas con su version serial y paralela.
+
+Referencias para implementar el algoritmo Kmeans:
+    >http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.101.1882&rep=rep1&type=pdf
+
+    >https://ieeexplore.ieee.org/abstract/document/1714203
+
+Se pueden cambiar por otros algoritmos de agrupamiento con DBScan e incluso uno inventado seria bastante divertido.
+
+------------------------------------------------------------------------------------
+
+Antivirus ECCI (Actividad)
+
+La Escuela de Ciencias de la Computacion e Informatica desea que sus estudiantes comprendan como funciona una escaneo de un antivirus, para lo cual le solicito al profesor del curso Programacion Paralela y Concurrente que realizara una activadad que lograra dicho cometido. Usando tecnologias de paralelismo (Pthreads u OpenMP) en una direccion que se recibe por parametro elimine todos los archivos con extension maliciosa, debe reportar el nombre del archivo y el peligro que representa para su equipo.
+
+*Para esta actividad se puede hacer de manera paralela la distribucion de archivos
+
